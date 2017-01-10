@@ -1,0 +1,94 @@
+---
+layout: page_title
+title: 关于
+id: about_page
+titlename: 关于
+---
+
+<h3>关于博客</h3>
+<p style=font-size:16px>
+    <B>https://crouchred0117.github.io</B><br/>
+    如果能坚持下去的话，会记录一些技术和人生的东西吧<br/>
+</p>
+
+<h3>关于作者</h3>
+
+<head>
+    <style type="text/css">
+        table
+        {
+            border-collapse:collapse;
+        }
+    
+    table, td, th
+    {
+        border:1px solid black;
+        width:100%;
+        table-layout:fixed;
+        text-align:center;
+    }
+    </style>
+</head>
+
+<br/>
+
+<p style=font-size:16px>
+等到自己坚持写了一些东西<br/>
+再来完善吧<br/>
+不然没什么内容<br/>
+很蠢的</br>
+还有就是很多东西也就是吹吹牛而已的</br>
+做我肯定是做不到的。。</br>
+
+
+<hr>
+{% if site.author.github %}
+<a href="{{ site.author.github }}" target="_blank">
+  <i class="fa fa-github-alt fa-4x" style="color:#16a095;"></i>
+</a>
+{% endif %}
+
+{% if site.author.gist %}
+<a href="{{ site.author.gist }}" target="_blank">
+  <i class="fa fa-file-code-o fa-4x" style="color:#16a095;"></i>
+</a>
+{% endif %}
+
+{% if site.author.stackoverflow %}
+<a href="{{ site.author.stackoverflow }}" target="_blank">
+  <i class="fa fa-stack-overflow fa-4x" style="color:#16a095;"></i>
+</a>
+{% endif %}
+
+{% if site.author.segmentfault %}
+<a href="{{ site.author.segmentfault }}" target="_blank">
+  <img src="/assets/img/iconfont/iconfont-sf.png" height="48" width="48" />
+</a>
+{% endif %}
+
+{% if site.author.avatar %}
+<a href="/pages/atom.xml" target="_blank">
+  <i class="fa fa-rss fa-2x" style="color:#16a095;"></i>
+</a>
+{% endif %}
+
+{% if site.author.email %}
+<a href="mailto:{{ site.author.email }}">
+  <i class="fa fa-envelope-o fa-2x" style="color:#16a095;"></i>
+</a>
+{% endif %}
+
+{% if site.author.weibo %}
+<a href="{{ site.author.weibo }}" target="_blank">
+  <i class="fa fa-weibo fa-2x" style="color:#16a095;"></i>
+</a>
+{% endif %}
+
+<hr>
+
+<!--
+<center><img src="/assets/img/avatar.png" style="width:100%">
+<p style=font-size:12px>测试</p></center>
+<br/>
+-->
+
