@@ -49,7 +49,8 @@ sys.path.append(os.path.abspath(os.path.dirname(__file__)).rsplit('/',1)[0])
 ```
 在.env中写入以下代码：
 ```
-    source <your directory>/venv/bin/activate //如果没有用virtualenv则不需要这个    export PYTHONPATH=<your directory> 
+    source <your directory>/venv/bin/activate //如果没有用virtualenv则不需要这个    
+    export PYTHONPATH=<your directory> 
     echo '.env has been executed'
 ```
 
