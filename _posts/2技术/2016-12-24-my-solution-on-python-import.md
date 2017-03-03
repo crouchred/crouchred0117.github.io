@@ -49,9 +49,10 @@ sys.path.append(os.path.abspath(os.path.dirname(__file__)).rsplit('/',1)[0])
 ```
 在.env中写入以下代码：
 ```
-    source <your directory>/venv/bin/activate //如果没有用virtualenv则不需要这个    
-    export PYTHONPATH=<your directory> 
-    echo '.env has been executed'
+	DIR=$(dirname "${BASH_SOURCE[0]}")
+	source $DIR/venv/bin/activate
+	export PYTHONPATH=$DIR
+	echo '.env has been executed'
 ```
 
 ## 参考
@@ -59,4 +60,8 @@ sys.path.append(os.path.abspath(os.path.dirname(__file__)).rsplit('/',1)[0])
 + [pep8](https://www.python.org/dev/peps/pep-0008/#imports)
 + [刘畅的博客](https://github.com/Liuchang0812/slides/tree/master/pycon2015cn)
 + [BrenBarn's answer in stackoverflow](http://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-time#answer-14132912)
++ [stackoverflow:get the source directory](http://stackoverflow.com/questions/59895/getting-the-source-directory-of-a-bash-script-from-within)
+
+#### changeLog
++ 20170303: .env中的代码从手动输入文件路径，改为在脚本中获取文件路径
 
