@@ -44,15 +44,15 @@ sys.path.append(os.path.abspath(os.path.dirname(__file__)).rsplit('/',1)[0])
 简单的说[autoenv](https://github.com/kennethreitz/autoenv)的作用是，在根目录下创建一个.env文件，在进入文件夹的时候，将自动执行.env中的代码,比如设置PYTHONPATH。
 还有很重要的作用是：如果我们使用[虚拟环境virtualenv](http://pythonguidecn.readthedocs.io/zh/latest/dev/virtualenvs.html)，那么进入文件夹的同时，我们可以激活虚拟环境，而不用每次都去active一下
 ```
-    git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv   //官方文档上说可以用pip install，反正我在用pip装了之后，总是没法activate
-    echo 'source ~/.autoenv/activate.sh' >> ~/.bashrc   
+git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv   //官方文档上说可以用pip install，反正我在用pip装了之后，总是没法activate
+echo 'source ~/.autoenv/activate.sh' >> ~/.bashrc   
 ```
 在.env中写入以下代码：
 ```
-	DIR=$(dirname "${BASH_SOURCE[0]}")
-	source $DIR/venv/bin/activate
-	export PYTHONPATH=$DIR
-	echo '.env has been executed'
+DIR=$(dirname "${BASH_SOURCE[0]}")
+source $DIR/venv/bin/activate
+export PYTHONPATH=$DIR
+echo '.env has been executed'
 ```
 
 ## 参考
