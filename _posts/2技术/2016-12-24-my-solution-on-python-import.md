@@ -44,14 +44,15 @@ sys.path.append(os.path.abspath(os.path.dirname(__file__)).rsplit('/',1)[0])
 简单的说[autoenv](https://github.com/kennethreitz/autoenv)的作用是，在根目录下创建一个.env文件，在进入文件夹的时候，将自动执行.env中的代码,比如设置PYTHONPATH。
 还有很重要的作用是：如果我们使用[虚拟环境virtualenv](http://pythonguidecn.readthedocs.io/zh/latest/dev/virtualenvs.html)，那么进入文件夹的同时，我们可以激活虚拟环境，而不用每次都去active一下
 ```
-    git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv   //官方文档上说可以用pip install，反正我在用pip装了之后，总是没法activate
-    echo 'source ~/.autoenv/activate.sh' >> ~/.bashrc   
+git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv   //官方文档上说可以用pip install，反正我在用pip装了之后，总是没法activate
+echo 'source ~/.autoenv/activate.sh' >> ~/.bashrc   
 ```
 在.env中写入以下代码：
 ```
-    source <your directory>/venv/bin/activate //如果没有用virtualenv则不需要这个    
-    export PYTHONPATH=<your directory> 
-    echo '.env has been executed'
+DIR=$(dirname "${BASH_SOURCE[0]}")
+source $DIR/venv/bin/activate
+export PYTHONPATH=$DIR
+echo '.env has been executed'
 ```
 
 ## 参考
@@ -59,4 +60,8 @@ sys.path.append(os.path.abspath(os.path.dirname(__file__)).rsplit('/',1)[0])
 + [pep8](https://www.python.org/dev/peps/pep-0008/#imports)
 + [刘畅的博客](https://github.com/Liuchang0812/slides/tree/master/pycon2015cn)
 + [BrenBarn's answer in stackoverflow](http://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-time#answer-14132912)
++ [stackoverflow:get the source directory](http://stackoverflow.com/questions/59895/getting-the-source-directory-of-a-bash-script-from-within)
+
+#### changeLog
++ 20170303: .env中的代码从手动输入文件路径，改为在脚本中获取文件路径
 
