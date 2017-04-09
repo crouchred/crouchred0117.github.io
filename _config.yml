@@ -45,9 +45,9 @@ ga:
 # disqus 设置
 # Set Up Disqus On a Your Own Site, this shortname is your unique Disqus URL.
 # something like this: shortname.disqus.com
-# 改为多说
-duoshuo:
-  shortname: crouchred
+# 改为多说(多说倒闭booom)
+#duoshuo:
+#  shortname: crouchred
 
 
 # 主题设置，自动激活某个分类
