@@ -134,4 +134,6 @@ exclude: ["README.md"]
 
 
 # For jekyll-3.0
-gems: [jekyll-paginate]
+plugins:
+    - jekyll-paginate
+    - jekyll-sitemap
