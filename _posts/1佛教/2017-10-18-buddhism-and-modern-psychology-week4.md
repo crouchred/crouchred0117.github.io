@@ -1,3 +1,11 @@
+---
+layout: post
+title: 佛教与现代心理学课程总结（第四周）
+description: 佛教与现代心理学课程总结第四周
+category: 佛教
+tags: [进化心理学]
+---
+
 # week4 意识(mind)的新模型
 
 ## 4.1 关于“我”的错觉
