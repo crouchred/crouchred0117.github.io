@@ -12,9 +12,9 @@ tags: [进化心理学]
 
 ## 6.1 无我是相关的
 
-//### 觉悟真的是觉悟吗？
-//Robert后来补充这个是说，有多少希望觉悟的人，真的希望觉悟呢？至少他本人的答案是否定的。
-//### 找一些人问觉悟的感觉是什么？
+### 觉悟真的是觉悟吗？
+Robert后来补充这个是说，有多少希望觉悟的人，真的希望觉悟呢？至少他本人的答案是否定的。
+### 找一些人问觉悟的感觉是什么？
 
 ### 两个方向的无我
 1. 第一类是向内的，观察自己的内在，之前我们大多讨论的是这种。
@@ -42,12 +42,11 @@ tags: [进化心理学]
 空性在大乘佛教中被谈论的更多一些。有时小乘佛教称之为无常，Robert Wright认为它们都是一个东西。
 
 ### 引用三摩地王经解释空性
-```
-Know all things to be like this:
-A mirage, a cloud castle,
-A dream, an apparition,
-Without essence, but with qualities that can be seen
-```
+> Know all things to be like this:
+> A mirage, a cloud castle,
+> A dream, an apparition,
+> Without essence, but with qualities that can be seen
+
 大概意思是如梦亦如幻的意思，不知道对应的中文原文是什么。Robert说有些学者认为这一段是说幻象的，但是他不这么认为，他认为最后一段才是重点。
 
 举了个苹果的例子，比如苹果的红色、形状、味道是真的，但是苹果本身是空。Robert特地指出他不是在说“[卡普格拉综合症](https://zh.wikipedia.org/wiki/卡普格拉综合症)”这种认知上的混乱，而是说对于这些性状不再升起反应。
