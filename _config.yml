@@ -1,24 +1,15 @@
 # Owner/Author information
 author:
   name:             Chen Xuyuan
-  #avatar:           /assets/img/avatar.png
   email:            crouchred@gmail.com
-  # Social networking links used in footer. Update and remove as you like.
-  github:           https://github.com/crouchred0117
-  #gist:		    https://gist.github.com/li2
-  #segmentfault:     http://segmentfault.com/u/li2
-  #stackoverflow:    http://stackoverflow.com/users/2722270/li2
-  #weibo:            http://weibo.com/liweiyi1989
-  #douban:           http://www.douban.com/people/liweiyi
-  #music:            http://music.163.com/#/user/home?id=9643773 
-
+  github:           https://github.com/crouchred
 
 # 站点信息
 title:              crouchred的博客
 description:        再说吧
-url:                http://crouchred.com
+url:                https://crouchred.github.io
 #url: http://127.0.0.1:4000 # debug
-production_url:     http://crouchred.com           # production_url是sitemap生成的url,方便百度谷歌收录.
+production_url:     https://crouchred.github.io
 
 
 # url_tags必须和tags.md中的permalink定义相同，这样定义的原因是不希望permalink中包含文件类型后缀。
@@ -40,7 +31,7 @@ gavatar:            /assets/img/avatar.png
 # google analytics 设置
 ga:
   id: UA-89037712-1
-  url: crouchred.com
+  url: https://crouchred.github.io
 
 # disqus 设置
 # Set Up Disqus On a Your Own Site, this shortname is your unique Disqus URL.
